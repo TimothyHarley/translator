@@ -2,3 +2,13 @@ body {
     background-color: lightgrey;
 
 }
+#appBox {
+    display: flex;
+    border: 2px solid black;
+    width: 640px;
+    height: 1000px;
+    margin: auto;
+}
+#headerImg {
+    
+}
