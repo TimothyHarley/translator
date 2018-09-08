@@ -12,3 +12,7 @@ body {
 #headerImg {
     height: 212px;
 }
+ul {
+    display: flex;
+    width: 100%;
+}
