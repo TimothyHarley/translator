@@ -44,6 +44,7 @@ textarea {
     border: 2px solid black;
     display: block;
     width: 600px;
+    height: 200px;
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
@@ -51,11 +52,10 @@ textarea {
 #button {
     border: 1px solid black;
     border-radius: 20px;
-    background-color: darkgreen;
+    background-color: royalblue;
     display: block;
     margin: 30 auto;
     padding: 5px;
-    height: 30px;
     width: 80px;
     text-align: center;
     box-shadow: 2px 2px black;
