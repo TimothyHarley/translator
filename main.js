@@ -38,6 +38,21 @@ const italianWords = {
     "you ":"tu "
 };
 
+const frenchWords = {
+    "a ":"une ",
+    "and ":"et ",
+    "christmas ":"noël ",
+    "happy ":"content ",
+    "holidays ":"vacances ",
+    "i ":"je ",
+    "love ":"amour ",
+    "merry ":"joyeux ",
+    "new ":"nouveau ",
+    "wish ":"souhait ",
+    "year ":"an ",
+    "you ":"toi "
+};
+
 const Spanish = () => {
     var translationStart = document.getElementById('message').value;
     for (i=0; i < translationStart.length; i++) {
@@ -50,6 +65,14 @@ const Italian = () => {
     var translationStart = document.getElementById('message').value;
     for (i=0; i < translationStart.length; i++) {
         translationEnd = (italianWords[translationStart[i]]);
+    }
+    printToDom(translationEnd, 'outputDiv')
+};
+
+const French = () => {
+    var translationStart = document.getElementById('message').value;
+    for (i=0; i < translationStart.length; i++) {
+        translationEnd = (frenchWords[translationStart[i]]);
     }
     printToDom(translationEnd, 'outputDiv')
 };
