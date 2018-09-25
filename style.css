@@ -53,6 +53,7 @@ textarea {
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
+    font-size: 2em;
 }
 #buttonDiv {
     display: flex;
