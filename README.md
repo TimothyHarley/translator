@@ -8,6 +8,7 @@ This app is a (relativly) simple translator.  I began by writing an object for e
 
 ### Provided Instructions
 <a href="https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_translator.md">Language Translator</a>
+
 <br>
 
 ### How to use this app
@@ -18,18 +19,20 @@ This app is a (relativly) simple translator.  I began by writing an object for e
 <br>
 
 <p>Welcome to the Holliday Card Translator! This app is designed to help you translate your holliday card into one of three languages! Just type your holliday greeting into the box below, but please only use the following words:</p>
-- A
-- And
-- Christmas
-- Happy
-- Hollidays
-- I
-- Love
-- Merry
-- New
-- Wish
-- Year
-- You
+
+* A
+* And
+* Christmas
+* Happy
+* Hollidays
+* I
+* Love
+* Merry
+* New
+* Wish
+* Year
+* You
+
 <p>If you use other words for your multi-lingual holliday card, you'll make the translator sad and it will translate that word as undefined. Once you are happy with the contents of your greeting, just select the language you would like to translate to by clicking the button labeled with that language. It's that easy!</p>
 
 <br>
